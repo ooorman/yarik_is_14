@@ -1,0 +1,92 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img {
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;
+}
+
+#content {
+    margin:10px;
+    gap: 10px;
+    display:flex;
+    justify-content: center;
+}
+#main {
+    position:relative;
+    background-image:url('../img/mistic.jpg');
+    border-radius:10px;
+    background-size: 300px 100px;
+    width:1152px;
+    min-height:500px;
+    padding:20px;
+}
+#aside, #aside_right {
+    position:relative;
+    width:384px;
+    min-height:500px;
+
+}
+#aside {
+    border: 5px solid #920b28;
+    background:red;
+    border-radius:10px;
+}
+#aside_right {
+    background:purple;
+    border-radius:10px;
+}
+
+.center_block {
+    display:block;
+    margin: 0 auto;
+}
+.center_absolute {
+    margin: 0 auto;
+    left:0;
+    right:0;
+}
+
+#mincer {
+    position:relative;
+    width:285px;
+    z-index:1;
+}
+.aside_top_panel {
+    border-bottom:5px solid #920b28;
+    height:50px;
+    text-align:center;
+}
+
+#yarik_before {
+    position:relative;
+    width:75px;
+}
+
+#rescue_yarik {
+    font-weight:1000;
+    border-radius:20px;
+    font-size:20px;
+    z-index:2;
+    left: 0;
+    right: 0;
+    transform: translateY(110px);
+    position:absolute;
+    background:white;
+    width:200px;
+    height:50px;
+    border:5px solid black;
+
+
+}
+#draggable {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  border-radius: 50%;
+  background: blue;
+
+}
